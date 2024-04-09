@@ -21,8 +21,14 @@ void noDisplay_AlternateScreenState(void)
   ledOn = !ledOn;
 }
 
-void noDisplay_AlternateRotation(void)
+int noDisplay_AlternateRotation(void)
 {
+  return 0;
+}
+
+void noDisplay_SetRotation(int rotation)
+{
+  return;
 }
 
 void noDisplay_NoScreen(unsigned long mElapsed)
@@ -100,6 +106,7 @@ DisplayDriver noDisplayDriver = {
     noDisplay_Init,
     noDisplay_AlternateScreenState,
     noDisplay_AlternateRotation,
+    noDisplay_SetRotation,
     noDisplay_LoadingScreen,
     noDisplay_SetupScreen,
     noDisplayCyclicScreens,
