@@ -65,6 +65,9 @@ Every time an stratum job notification is received miner update its current work
 
 \*Affiliate links
 
+#### Current Supported Boards with stand alone displays
+- ESP32 devkitC V4 - SSD1306 (I²C controller) ([Pinout & example photo](images/ESP32_SSD1306/README.md) / [Board Info](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/hw-reference/esp32/get-started-devkitc.html))
+
 ### Flash firmware
 
 #### microMiners Flashtool [Recommended]
